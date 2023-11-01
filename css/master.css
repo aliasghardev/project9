@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: mooly;
+    src: url("../font/Mooli-Regular.ttf") format("opentype");
+}
+@font-face {
+    font-family: rubik;
+    src: url("../font/RubikBurned-Regular.ttf") format("opentype");
+}
+
+.nav{
+    &:hover>ul{
+        visibility: visible;
+    }
+    >ul{
+        visibility: hidden;
+    }
+}
